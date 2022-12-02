@@ -33,3 +33,11 @@ if ($text == "") {
 // Echo the response back to the API
 header('Content-type: text/plain');
 echo $response;
+?>
+
+<html>
+<h1>USSD API</h1>
+<p>Send a POST request to the following URL</p>
+<p>https://api.africastalking.com/version1/ussd/send</p>
+<p>with the following parameters</p>
+</html>
